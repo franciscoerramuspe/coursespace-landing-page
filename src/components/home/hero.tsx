@@ -18,7 +18,7 @@ interface ExpItemProps {
 
 const exps: Array<Exp> = [
   {
-    label: 'Students',
+    label: 'Estudiantes',
     value: '10K+',
   },
   {
