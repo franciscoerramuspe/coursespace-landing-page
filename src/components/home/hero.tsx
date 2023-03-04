@@ -22,11 +22,11 @@ const exps: Array<Exp> = [
     value: '10K+',
   },
   {
-    label: 'Quality Course',
+    label: 'Calidad de cursos',
     value: '20+',
   },
   {
-    label: 'Experience Mentors',
+    label: 'Experiencia de los mentores',
     value: '10+',
   },
 ]
@@ -83,7 +83,7 @@ const HomeHero: FC = () => {
                       backgroundColor: 'unset',
                     }}
                   >
-                    Improve{' '}
+                    Mejora{' '}
                     <Box
                       sx={{
                         position: 'absolute',
@@ -97,7 +97,7 @@ const HomeHero: FC = () => {
                       <img src="/images/headline-curve.svg" alt="Headline curve" />
                     </Box>
                   </Typography>
-                  your{' '}
+                  tus{' '}
                   <Typography
                     component="span"
                     sx={{
@@ -113,7 +113,7 @@ const HomeHero: FC = () => {
                       },
                     }}
                   >
-                    Skill
+                    Skills
                     <svg version="1.1" viewBox="0 0 3183 3072">
                       <g id="Layer_x0020_1">
                         <path
@@ -132,7 +132,7 @@ const HomeHero: FC = () => {
                     </svg>
                   </Typography>{' '}
                   <br />
-                  with Different Way
+                  de manera diferente
                 </Typography>
               </Box>
               <Box sx={{ mb: 4, width: { xs: '100%', md: '70%' } }}>
@@ -145,7 +145,7 @@ const HomeHero: FC = () => {
               <Box sx={{ '& button': { mr: 2 } }}>
                 <ScrollLink to="popular-course" spy={true} smooth={true} offset={0} duration={350}>
                   <StyledButton color="primary" size="large" variant="contained">
-                    Get Started
+                    Ver cursos
                   </StyledButton>
                 </ScrollLink>
                 <ScrollLink to="video-section" spy={true} smooth={true} offset={0} duration={350}>
@@ -194,10 +194,10 @@ const HomeHero: FC = () => {
                   component="h6"
                   sx={{ color: 'secondary.main', fontSize: '1.1rem', fontWeight: 700, mb: 0.5 }}
                 >
-                  Certificate
+                  Certificados
                 </Typography>
                 <Typography variant="subtitle1" sx={{ color: 'text.secondary', lineHeight: 1.3 }}>
-                  There are certificates for all courses.
+                 Todos nuestros cursos cuentan con certificado de cursada
                 </Typography>
               </Box>
             </Box>
