@@ -62,19 +62,19 @@ const HomeFeature: FC = () => {
                 </Typography>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    UI/UI Design
+                    Algoritmos
                   </Typography>
                   <BorderLinearProgress variant="determinate" color="inherit" value={65} order={1} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    Mobile Development
+                    Machine Learning
                   </Typography>
                   <BorderLinearProgress variant="determinate" color="inherit" value={40} order={2} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    Web Development
+                    Ciencia de Datos
                   </Typography>
                   <BorderLinearProgress variant="determinate" color="inherit" value={50} order={3} />
                 </Box>
@@ -153,7 +153,7 @@ const HomeFeature: FC = () => {
                 fontWeight: 'bold',
               }}
             >
-              Make your{' '}
+              Disfruta de tu{' '}
               <Typography
                 component="mark"
                 sx={{
@@ -164,21 +164,20 @@ const HomeFeature: FC = () => {
                   backgroundColor: 'unset',
                 }}
               >
-                Learning <br />
+                Aprendizaje <br />
                 <Box
                   sx={{
                     position: 'absolute',
                     top: { xs: 20, md: 28 },
                     transform: 'rotate(3deg)',
                     left: 2,
-                    '& img': { width: { xs: 140, md: 175 }, height: 'auto' },
+                    '& img': { width: { xs: 100, md: 199 }, height: 'auto' },
                   }}
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src="/images/headline-curve.svg" alt="Headline curve" />
                 </Box>
               </Typography>
-              Enjoyable
             </Typography>
 
             <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>

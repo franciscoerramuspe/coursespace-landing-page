@@ -3,7 +3,7 @@ import type { Course } from '@/interfaces/course'
 export const data: Array<Course> = [
   {
     id: 1,
-    cover: '/images/courses/christopher-gower-m_HRfLhgABo-unsplash.jpg',
+    cover: '/images/courses/streamlit-427x427.png',
     title: 'Python con dashboards de Streamlit',
     rating: 5,
     ratingCount: 114,
