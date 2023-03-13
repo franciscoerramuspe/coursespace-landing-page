@@ -9,7 +9,6 @@ export const data: Array<Course> = [
     ratingCount: 114,
     price: 24.99,
     category: 'Beginner',
-    link: 'https://www.udemy.com/course/python-integral/?referralCode=9729C0ED8575EEAF088C',
   },
   {
     id: 2,
@@ -19,7 +18,6 @@ export const data: Array<Course> = [
     ratingCount: 2,
     price: 24.99,
     category: 'Intermediate',
-    link: 'https://www.udemy.com/course/google-earth-engine-integral/',
   },
   {
     id: 3,
@@ -29,6 +27,14 @@ export const data: Array<Course> = [
     ratingCount: 5,
     price: 24.99,
     category: 'Intermediate',
-    link: 'https://www.udemy.com/course/python-manim/?referralCode=B5D27E4880A9E2E5D3F0',
+  },
+  {
+    id: 4,
+    cover: '/images/courses/datastructures_algo.jpg',
+    title: 'Estructuras de datos y algoritmos en Python',
+    rating: 5,
+    ratingCount: 120,
+    price: 24.99,
+    category: 'Intermediate',
   },
 ]
