@@ -3,7 +3,7 @@ import type { Mentor } from '@/interfaces/mentor'
 export const data: Array<Mentor> = [
   {
     id: 1,
-    photo: '/images/mentors/christian-buehner-DItYlc26zVI-unsplash.jpg',
+    photo: '/images/mentors/gustavo.png',
     name: 'Gustavo Gonzalez Bonorino',
     category: 'Creador y co-profesor',
     description:
@@ -15,25 +15,26 @@ export const data: Array<Mentor> = [
   },
   {
     id: 2,
-    photo: '/images/mentors/jonas-kakaroto-KIPqvvTOC1s-unsplash.jpg',
+    photo: '/images/mentors/augusto.png',
     name: 'Augusto Gonzalez Bonorino',
     category: 'Creador y co-profesor',
     description:
       'Candidato a Phd en Economía en Claremont Graduate University, California. Titulado en Economía y Ciencia de Datos. Me apasiona combinar mis estudios para desentrelazar conceptos complejos y explicarlos de maneraencilla.',
     company: {
       name: 'Google',
-      logo: '/images/companies/google.png',
+      logo: '/images/companies/cgu.jpg',
     },
   },
   {
     id: 3,
-    photo: '/images/mentors/noah-buscher-8A7fD6Y5VF8-unsplash.jpg',
+    photo: '/images/mentors/francisco.png',
     name: 'Francisco Erramuspe',
     category: 'co-profesor',
-    description: 'Titulado en Ciencias de la Computación en Troy University, Alabama. ',
+    description:
+      'Titulado en Ciencias de la Computación en Troy University, Alabama. Aporto contenido sobre programacion en YouTube e Instagram. Tengo un año de experiencia como desarrollador de software, trabajando en empresas de Estados Unidos y Uruguay.',
     company: {
       name: 'Airbnb',
-      logo: '/images/companies/airbnb.png',
+      logo: '/images/companies/trojans.png',
     },
   },
   {

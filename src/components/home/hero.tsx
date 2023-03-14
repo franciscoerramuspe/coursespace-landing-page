@@ -19,7 +19,7 @@ interface ExpItemProps {
 const exps: Array<Exp> = [
   {
     label: 'Estudiantes',
-    value: '10K+',
+    value: '+3K',
   },
   {
     label: 'Calidad de cursos',
@@ -197,7 +197,7 @@ const HomeHero: FC = () => {
                   Certificados
                 </Typography>
                 <Typography variant="subtitle1" sx={{ color: 'text.secondary', lineHeight: 1.3 }}>
-                 Todos nuestros cursos cuentan con certificado de cursada
+                  Todos nuestros cursos cuentan con certificado de cursada
                 </Typography>
               </Box>
             </Box>
