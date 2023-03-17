@@ -58,25 +58,25 @@ const HomeFeature: FC = () => {
                 }}
               >
                 <Typography variant="h5" sx={{ mb: 1 }}>
-                  Lorem ipsum dolor
+                  Habilidades
                 </Typography>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
                     Algoritmos
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={65} order={1} />
+                  <BorderLinearProgress variant="determinate" color="inherit" value={75} order={1} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
                     Machine Learning
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={40} order={2} />
+                  <BorderLinearProgress variant="determinate" color="inherit" value={90} order={2} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
                     Ciencia de Datos
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={50} order={3} />
+                  <BorderLinearProgress variant="determinate" color="inherit" value={88} order={3} />
                 </Box>
               </Box>
 
@@ -181,8 +181,8 @@ const HomeFeature: FC = () => {
             </Typography>
 
             <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>
-              Set the way of learning according to your wishes with some of the benefits that you get us, so you on
-              enjoy the lessons that we provide.
+              Establece la forma de aprender de acuerdo a tus deseos con algunos de los beneficios que nos brindas, para
+              que disfrutes de las lecciones que brindamos.
             </Typography>
 
             <Grid container spacing={2} sx={{ ml: { xs: 0, md: 2 } }}>

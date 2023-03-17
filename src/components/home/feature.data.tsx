@@ -12,23 +12,24 @@ interface Data {
 
 export const data: Data[] = [
   {
-    title: 'Easy Accessable',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Estudia desde cualquier sitio',
+    description:
+      'No importa si estás en casa, en el trabajo o de viaje. ¡Siempre tendrás acceso a tus cursos para estudiar desde cualquier sitio!',
     icon: <ArtTrackIcon />,
   },
   {
-    title: 'More Affordable Cost',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Costo muy accesible',
+    description: 'Proveemos un costo muy accesible para que puedas mejorar tus habilidades sin afectar tu presupuesto',
     icon: <AttachMoneyIcon />,
   },
   {
-    title: 'Flexible Study Time',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Tiempo de estudio flexible',
+    description: 'Maneja tu propio itinerario de estudio, y adapta le ensaeñanza a tu día a día',
     icon: <LocalLibraryIcon />,
   },
   {
-    title: 'Consultation With Mentor',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Consultas con nuestros profesores',
+    description: 'Resuelve tus dudas preguntándole a cualquiera de nuestros profesores',
     icon: <ContactSupportIcon />,
   },
 ]
