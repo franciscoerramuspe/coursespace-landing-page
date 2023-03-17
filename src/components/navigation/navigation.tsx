@@ -25,7 +25,7 @@ const Navigation: FC = () => {
             justifyContent: 'center',
             px: { xs: 0, md: 3 },
             mb: { xs: 3, md: 0 },
-            fontSize: { xs: '1.2rem', md: 'inherit' },
+            fontSize: { xs: '1.8rem' },
             ...(destination === '/' && {
               color: 'primary.main',
             }),
