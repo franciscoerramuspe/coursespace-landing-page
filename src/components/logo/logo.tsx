@@ -1,5 +1,6 @@
 import React, { FC } from 'react'
 import { Box, Typography } from '@mui/material'
+import Image from 'next/image'
 
 interface Props {
   onClick?: () => void

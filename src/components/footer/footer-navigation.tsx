@@ -8,19 +8,19 @@ import { FooterSectionTitle } from '@/components/footer'
 
 const courseMenu: Array<Navigation> = [
   {
-    label: 'UI/UX Design',
-    path: '#',
+    label: ' Animacion con Manim en Python',
+    path: 'https://www.udemy.com/course/python-manim/?referralCode=B5D27E4880A9E2E5D3F0',
   },
   {
-    label: 'Mobile Development',
-    path: '#',
+    label: 'Google Earth Engine',
+    path: 'https://www.udemy.com/course/google-earth-engine-integral/',
   },
   {
-    label: 'Machine Learning',
-    path: '#',
+    label: 'Python Integral: Streamlit, Pandas, Sci-Kit Learn, y más',
+    path: 'https://www.udemy.com/course/python-integral/?referralCode=9729C0ED8575EEAF088C',
   },
   {
-    label: 'Web Development',
+    label: 'Estructuras de datos y algoritmos',
     path: '#',
   },
 ]
