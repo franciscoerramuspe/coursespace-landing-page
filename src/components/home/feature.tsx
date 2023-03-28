@@ -181,7 +181,7 @@ const HomeFeature: FC = () => {
             </Typography>
 
             <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>
-              Establece la forma de aprender de acuerdo a tus deseos con algunos de los beneficios que nos brindas, para
+              Establece la forma de aprender de acuerdo a tus prioridades. 
               que disfrutes de las lecciones que brindamos.
             </Typography>
 
